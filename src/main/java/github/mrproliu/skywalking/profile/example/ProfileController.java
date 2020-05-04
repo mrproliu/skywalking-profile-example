@@ -44,6 +44,7 @@ public class ProfileController {
             countDownLatch.countDown();
         }
     }
+
     private static final class Task2 implements Runnable {
         private final CountDownLatch countDownLatch;
         public Task2(CountDownLatch countDownLatch) {
